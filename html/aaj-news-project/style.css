@@ -1,0 +1,2117 @@
+{@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+}
+.header
+{
+    display: flex;
+}
+.logo img
+{
+    width: 85px;
+    height: 130px;
+    margin-left: 450px;
+    margin-top: 7px;
+}
+.live
+{
+    font-style: italic;
+    color: #f28500;
+    margin-top: -130px;
+}
+.text-left
+{
+    font-style: italic;
+    margin-left: 170px;
+    margin-top: -100px;
+}
+.iran
+{
+    margin-left: -30px;
+}
+.text-left hr
+{
+    width: 40px;
+    border: .5px solid #02b099;
+    margin-left: 27px;
+    margin-top: -7px;
+}
+.text-left:hover
+{
+    cursor: pointer;
+}
+.logo-text
+{
+    font-size: 13px;
+    margin-left: 360px;
+    margin-top: 30px;
+}
+.text-right
+{
+    font-style: italic;
+    margin-left: 740px;
+    margin-top: -100px;
+}
+.text-right .urdu
+{
+    font-size: 20px;
+}
+.text-right hr
+{
+    width: 30px;
+    border: .5px solid #02b099;
+    margin-right: 190px;
+    margin-top: -10px;
+}
+.urdu
+{
+    font-style: italic;
+    color: #f28500;
+    margin-left: 30px;
+    margin-top: -165px;
+}
+.urdu:hover
+{
+    cursor: pointer;
+}
+.petrol:hover
+{
+    cursor: pointer;
+}
+.hamas
+{
+    margin-left: -30px;
+}
+.hamas:hover
+{
+    cursor: pointer;
+}
+.navbar hr
+{
+    position: absolute;
+    width: 99.8%;
+    margin-top: 35px;
+    margin-left: -8px;
+    border: 1px solid black;
+}
+.navbar ul li
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    transform: scale(1, 1.5);
+    margin-left: 105px;
+    margin-top: 50px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: #f28500;
+    transition: .5s;
+}
+.navbar .nav-hr
+{
+    margin-top: 0px;
+}
+.container
+{
+    width: 950px;
+    height: 4500px;
+    /* background-color: aquamarine; */
+    margin-bottom: 0px;
+}
+.top
+{
+    background-color: black;
+    color: white;
+    width: 97px;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    transform: scale(1, 1.8);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.pak
+{
+    margin-top: 50px;
+    margin-left: 20px;
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.pak:hover
+{
+    color: #808080;
+    cursor: pointer;
+    transition: .1s;
+}
+span
+{
+    color: #02b099;
+    cursor: auto;
+}
+.h2
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 250px;
+}
+.h2:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.h2-text
+{
+    margin-left: 20px;
+    font-style: italic;
+    margin-top: -10px;
+    line-height: 21px;
+}
+.h2-text p
+{
+    opacity: .7;
+}
+.h2-text img
+{
+    width: 120px;
+    height: 70px;
+    margin-right: 710px;
+    margin-top: -133px;
+    float: right;
+    cursor: pointer;
+}
+.h2-text hr
+{
+    width: 213px;
+    float: left;
+    opacity: .6;
+}
+.election img
+{
+    width: 430px;
+    height: 270px;
+    margin-right: 220px;
+    margin-top: -320px;
+    float: right;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+.election h2
+{
+    
+    margin-right: 160px;
+    margin-top: -20px;
+    font-size: 28px;
+    line-height: 29px;
+    text-align: center;
+}
+.election h2:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.election span
+{
+    color: black;
+    margin-left: 220px;
+}
+.popular
+{
+    width: 200px;
+    height: 1610px;
+    border: 1px solid #f28500;
+    border-radius: 5px;
+    float: right;
+    margin-right: -20px;
+    margin-top: -370px;
+}
+.popular p
+{
+    background-color: #ecfadc;
+    letter-spacing: 6px;
+    line-height: 35px;
+    height: 40px;
+    text-align: center;
+    margin-top: 12px;
+    transform: scale(1, 1.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+.popular ol
+{
+    font-size: 20px;
+    opacity: .8;
+    line-height: 28px;
+}
+.popular li:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.popular hr
+{
+    margin-right: 50px;
+    width: 160px;
+    float: left;
+    opacity: .4;
+}
+.popular-hr hr
+{
+    width: 630px;
+    border: 1px solid #808080;
+    position: relative;
+    left: 235px;
+    top: 1255px;
+}
+.force
+{
+    margin-top: -40px;
+    margin-left: 20px;
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.force:hover
+{
+    color: #808080;
+    cursor: pointer;
+    transition: .1s;
+}
+.force-h3
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 250px;
+}
+.force-h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.force-text
+{
+    margin-left: 20px;
+    font-style: italic;
+    margin-top: -10px;
+    line-height: 21px;
+}
+.force-text p
+{
+    opacity: .7;
+}
+.force-text img
+{
+    width: 120px;
+    height: 70px;
+    margin-right: 695px;
+    margin-top: -1150px;
+    float: right;
+    cursor: pointer;
+}
+.force-text hr
+{
+    width: 213px;
+    float: left;
+    opacity: .6;
+}
+.world
+{
+    margin-top: 50px;
+    margin-left: 20px;
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.world:hover
+{
+    color: #808080;
+    cursor: pointer;
+    transition: .1s;
+}
+.world-h3
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 250px;
+}
+.world-h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.world-text
+{
+    margin-left: 20px;
+    font-style: italic;
+    line-height: 21px;
+    margin-top: -10px;
+}
+.world-text p
+{
+    opacity: .7;
+}
+.world-text img
+{
+    width: 120px;
+    height: 70px;
+    margin-right: 690px;
+    margin-top: -880px;
+    float: right;
+    cursor: pointer;
+}
+.world-text hr
+{
+    width: 213px;
+    float: left;
+    opacity: .6;
+    position: relative;
+    bottom: 720px;
+}
+.FO
+{
+    margin-top: 50px;
+    margin-left: 20px;
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.FO:hover
+{
+    color: #808080;
+    cursor: pointer;
+    transition: .1s;
+}
+.FO-h3
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 250px;
+}
+.FO-h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.FO-text
+{
+    margin-left: 20px;
+    font-style: italic;
+    line-height: 21px;
+    margin-top: -10px;
+}
+.FO-text p
+{
+    opacity: .7;
+}
+.FO-text img
+{
+    width: 120px;
+    height: 70px;
+    margin-right: 690px;
+    margin-top: -580px;
+    float: right;
+    cursor: pointer;
+}
+.FO-text hr
+{
+    width: 213px;
+    float: left;
+    opacity: .6;
+    position: relative;
+    bottom: 430px;
+}
+.snowfall
+{
+    margin-top: 50px;
+    margin-left: 20px;
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.snowfall:hover
+{
+    color: #808080;
+    cursor: pointer;
+    transition: .1s;
+}
+.snowfall-h3
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 250px;
+}
+.snowfall-h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.snowfall-text
+{
+    margin-left: 20px;
+    font-style: italic;
+    line-height: 20px;
+    margin-top: -10px;
+}
+.snowfall-text p
+{
+    opacity: .7;
+}
+.snowfall-text img
+{
+    width: 120px;
+    height: 70px;
+    margin-right: 700px;
+    margin-top: -300px;
+    float: right;
+    cursor: pointer;
+}
+.snowfall-text hr
+{
+    width: 213px;
+    float: left;
+    opacity: .6;
+    position: relative;
+    bottom: 140px;
+}
+.sanam
+{
+    margin-top: 50px;
+    margin-left: 20px;
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+    height: 100px;
+}
+.sanam:hover
+{
+    color: #808080;
+    cursor: pointer;
+    transition: .1s;
+}
+.sanam-h3
+{
+    margin-left: 20px;
+    font-size: 18px;
+    width: 250px;
+    position: relative;
+    bottom: 90px;
+}
+.sanam-h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.sanam-text
+{
+    margin-left: 20px;
+    font-style: italic;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.sanam-text p
+{
+    opacity: .7;
+    position: relative;
+    bottom: 100px;
+}
+.sanam-text img
+{
+    width: 120px;
+    height: 70px;
+    margin-right: 700px;
+    margin-top: -230px;
+    float: right;
+    cursor: pointer;
+}
+.sanam-text hr
+{
+    width: 213px;
+    float: left;
+    opacity: .6;
+    position: relative;
+    bottom: 100px;
+}
+.states
+{
+    margin-top: 50px;
+    margin-left: 20px;
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+    position: relative;
+    bottom: 100px;
+}
+.states:hover
+{
+    color: #808080;
+    cursor: pointer;
+    transition: .1s;
+}
+.states-h3
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 250px;
+    position: relative;
+    bottom: 100px;
+}
+.states-h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.states-text
+{
+    margin-left: 20px;
+    font-style: italic;
+    line-height: 21px;
+    margin-top: -10px;
+    position: relative;
+    bottom: 100px;
+}
+.states-text p
+{
+    opacity: .7;
+}
+.states-text img
+{
+    width: 120px;
+    height: 70px;
+    margin-right: 700px;
+    margin-top: -130px;
+    float: right;
+    cursor: pointer;
+}
+.states-text hr
+{
+    width: 100%;
+    border: 1px solid;
+    position: absolute;
+    top: 230px;
+    opacity: .6;
+}
+.states-hr
+{
+    margin-top: 12px;
+}
+.recommended
+{
+    width: 150px;
+    height: 22px;
+    line-height: 26px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transform: scale(1, 1.5);
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    bottom: 1700px;
+    left: 300px;
+}
+.border
+{
+    width: 427px;
+    height: 720px;
+    border: 1px solid black;
+    border-radius: 7px;
+    position: relative;
+    bottom: 1695px;
+    left: 292px;
+}
+.wedding
+{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    bottom: 2400px;
+    left: 310px;
+}
+.wedding img
+{
+    width: 180px;
+    height: 110px;
+    border-radius: 2px;
+}
+.wedding h4
+{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.wedding:hover
+{
+    cursor: pointer;
+}
+.kuwait
+{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    bottom: 2580px;
+    left: 520px;
+}
+.kuwait img
+{
+    width: 180px;
+    height: 110px;
+    border-radius: 2px;
+}
+.kuwait h4
+{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.kuwait:hover
+{
+    cursor: pointer;
+}
+.taylor-swift
+{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    bottom: 2540px;
+    left: 310px;
+}
+.taylor-swift img
+{
+    width: 180px;
+    height: 110px;
+    border-radius: 2px;
+}
+.taylor-swift h4
+{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.taylor-swift:hover
+{
+    cursor: pointer;
+}
+.certificate
+{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    bottom: 2720px;
+    left: 520px;
+}
+.certificate img
+{
+    width: 180px;
+    height: 110px;
+    border-radius: 2px;
+}
+.certificate h4
+{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.certificate:hover
+{
+    cursor: pointer;
+}
+.tiktoker
+{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    bottom: 2660px;
+    left: 310px;
+}
+.tiktoker img
+{
+    width: 180px;
+    height: 110px;
+    border-radius: 2px;
+}
+.tiktoker h4
+{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.tiktoker:hover
+{
+    cursor: pointer;
+}
+.kuwait-2
+{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    bottom: 2840px;
+    left: 520px;
+}
+.kuwait-2 img
+{
+    width: 180px;
+    height: 110px;
+    border-radius: 2px;
+}
+.kuwait-2 h4
+{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.kuwait-2:hover
+{
+    cursor: pointer;
+}
+.jamal-nasir
+{
+    font-size: 28px;
+    text-align: center;
+}
+.jamal-nasir p
+{
+    opacity: .8;
+    line-height: 34px;
+    position: absolute;
+    bottom: -1510px;
+    left: 430px;
+}
+.jamal-nasir p:hover
+{
+    cursor: pointer;
+}
+.jamal-nasir hr
+{
+    width: 630px;
+    border: 1px solid #808080;
+    position: relative;
+    bottom: 2220px;
+    left: 145px;
+}
+.hidden
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 313px;
+    bottom: 2390px;
+    overflow: hidden; 
+}
+.hidden img
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.hidden img:hover
+{
+    cursor: pointer;
+}
+.aaj-tv hr
+{
+    border-color: black;
+    width: 210px;
+    position: relative;
+    bottom: 2250px;
+    left: 302px;
+    margin: 1px;
+    opacity: .6;
+}
+.aaj-tv .p1
+{
+    color: #00563b;
+    font-weight: bold;
+    font-size: 16px;
+    transform: scale(1, 1.8);  
+    position: relative;
+    bottom: 2277px;
+    margin-left: 527px;
+}
+.aaj-tv img
+{
+    width: 23px;
+    height: 37px;
+    position: relative;
+    bottom: 2320px;
+    margin-left: 597px;
+}
+.aaj-tv .p2
+{
+    width: 60px;
+    color: #02b099;
+    font-weight: 700;
+    font-size: 16px;
+    transform: scale(1, 1.8);  
+    position: relative;
+    bottom: 2368px;
+    margin-left: 632px;
+}
+.aaj-tv .p2:hover
+{
+    cursor: pointer;
+}
+.aaj-tv .hr1
+{
+    position: relative;
+    left: 710px;
+    bottom: 2395px;
+}
+.aaj-tv .hr2
+{
+    position: relative;
+    left: 710px;
+    bottom: 2395px;
+}
+.case
+{
+    width: 210px;
+    height: 80px;
+    font-size: 16px;
+    position: relative;
+    bottom: 2340px;
+    left: 320px;
+}
+.case img
+{
+    width: 190px;
+    height: 110px;
+}
+.case p
+{
+    margin-top: 5px;
+    line-height: 22px;
+}
+.case :hover
+{
+    cursor: pointer;
+}
+.polio
+{
+    width: 210px;
+    height: 80px;
+    font-size: 16px;
+    position: relative;
+    bottom: 2420px;
+    left: 520px;
+}
+.polio img
+{
+    width: 190px;
+    height: 110px;
+}
+.polio p
+{
+    margin-top: 5px;
+    line-height: 22px;
+}
+.polio :hover
+{
+    cursor: pointer;
+}
+.file
+{
+    width: 210px;
+    height: 80px;
+    font-size: 16px;
+    position: relative;
+    bottom: 2500px;
+    left: 721px;
+}
+.file img
+{
+    width: 190px;
+    height: 110px;
+}
+.file p
+{
+    margin-top: 5px;
+    line-height: 22px;
+}
+.file :hover
+{
+    cursor: pointer;
+}
+.life
+{
+    transform: scale(1, 1.8);  
+    position: relative;
+    bottom: 2320px;
+    left: 19px;
+    letter-spacing: 1px;
+}
+.british
+{
+    width: 215px;
+    height: 160px;
+    position: relative;
+    bottom: 2320px;
+    left: 10px;
+    text-align: center;
+    letter-spacing: .3px;
+}
+.british img
+{
+    width: 195px;
+    height: 185px;
+}
+.british img:hover
+{
+    cursor: pointer;
+}
+.british h4
+{
+    line-height: 20px;
+    margin-top: 5px;
+}
+.british h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.british p
+{
+    opacity: .7;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.ashfaq
+{
+    width: 500px;
+    height: 360px;
+    position: relative;
+    bottom: 2480px;
+    left: 250px;
+    text-align: center;
+    letter-spacing: .3px;
+}
+.ashfaq img
+{
+    width: 465px;
+    height: 300px;
+}
+.ashfaq img:hover
+{
+    cursor: pointer;
+}
+.ashfaq h4
+{
+    margin-top: 5px;
+    line-height: 20px;
+}
+.ashfaq h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.ashfaq p
+{
+    opacity: .7;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.AUR
+{
+    width: 215px;
+    height: 160px;
+    position: relative;
+    bottom: 2840px;
+    left: 773px;
+    text-align: center;
+    letter-spacing: .3px;
+}
+.AUR img
+{
+    width: 195px;
+    height: 185px;
+}
+.AUR img:hover
+{
+    cursor: pointer;
+}
+.AUR h4
+{
+    line-height: 20px;
+    margin-top: 5px;
+}
+.AUR h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.AUR p
+{
+    opacity: .7;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.AUR .readmore
+{
+    width: 70px;
+    color: #6a6a6a;
+    font-weight: bold;
+    font-size: 10px;
+    transform: scale(1, 1.4);
+    position: relative;
+    bottom: 390px;  
+    left: 139px;
+}
+.AUR .readmore:hover
+{
+    cursor: pointer;
+}
+.sweden
+{
+    width: 230px;
+    height: 220px;
+    text-align: center;
+    letter-spacing: .3px;
+    position: relative;
+    bottom: 2600px;
+    left: 20px;
+}
+.sweden img
+{
+    width: 230px;
+    height: 210px;
+}
+.sweden img:hover
+{
+    cursor: pointer;
+}
+.sweden h4
+{
+    line-height: 20px;
+    margin-top: 5px;
+}
+.sweden h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.sweden p
+{
+    opacity: .7;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.rahat-ali
+{
+    width: 230px;
+    height: 220px;
+    text-align: center;
+    letter-spacing: .3px;
+    position: relative;
+    bottom: 2820px;
+    left: 263px;
+}
+.rahat-ali img
+{
+    width: 230px;
+    height: 210px;
+}
+.rahat-ali img:hover
+{
+    cursor: pointer;
+}
+.rahat-ali h4
+{
+    line-height: 20px;
+    margin-top: 5px;
+}
+.rahat-ali h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.rahat-ali p
+{
+    opacity: .7;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.rabia
+{
+    width: 230px;
+    height: 220px;
+    text-align: center;
+    letter-spacing: .3px;
+    position: relative;
+    bottom: 3040px;
+    left: 506px;
+}
+.rabia img
+{
+    width: 230px;
+    height: 210px;
+}
+.rabia img:hover
+{
+    cursor: pointer;
+}
+.rabia h4
+{
+    line-height: 20px;
+    margin-top: 5px;
+}
+.rabia h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.rabia p
+{
+    opacity: .7;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.emirates
+{
+    width: 230px;
+    height: 220px;
+    text-align: center;
+    letter-spacing: .3px;
+    position: relative;
+    bottom: 3260px;
+    left: 750px;
+}
+.emirates img
+{
+    width: 230px;
+    height: 210px;
+}
+.emirates img:hover
+{
+    cursor: pointer;
+}
+.emirates h4
+{
+    line-height: 20px;
+    margin-top: 5px;
+}
+.emirates h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.emirates p
+{
+    opacity: .7;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.sports-hr hr
+{
+    width: 960px;
+    border: 1px solid black;
+    margin: 2px;
+    opacity: .7;
+    position: relative;
+    bottom: 3120px;
+    left: 16px;
+}
+.sports
+{
+    width: 50px;
+    transform: scale(1, 1.8);  
+    position: relative;
+    bottom: 3110px;
+    left: 16px;
+}
+.sports:hover
+{
+    cursor: pointer;
+}
+.sports .readmore
+{
+    width: 70px;
+    color: #6a6a6a;
+    opacity: .8;
+    font-weight: bold;
+    font-size: 10px;
+    transform: scale(1, .8);
+    position: relative;
+    bottom: 33px;  
+    left: 238px;
+}
+.ind-vs-eng
+{
+    width: 270px;
+    position: relative;
+    bottom: 3130px;
+    left: 16px;
+}
+.ind-vs-eng span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.ind-vs-eng h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.ind-vs-eng h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.ind-vs-eng img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+.ind-vs-eng img:hover
+{
+    cursor: pointer;
+}
+.ind-vs-eng p
+{
+    position: relative;
+    bottom: 100px;
+    line-height: 20px;
+    opacity: .8;
+}
+.ind-vs-eng hr
+{
+    width: 295px;
+    border: 1px dotted black;
+    opacity: .2;
+    margin-top: -85px;
+}
+.mbappe
+{
+    width: 295px;
+    position: relative;
+    bottom: 3125px;
+    left: 16px;
+}
+.mbappe span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.mbappe h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.mbappe h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.mbappe img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+.mbappe img:hover
+{
+    cursor: pointer;
+}
+.mbappe p
+{
+    position: relative;
+    bottom: 105px;
+    line-height: 20px;
+    opacity: .8;
+}
+.mbappe hr
+{
+    width: 295px;
+    border: 1px dotted black;
+    opacity: .2;
+    margin-top: -95px;
+}
+.davis
+{
+    width: 295px;
+    position: relative;
+    bottom: 3120px;
+    left: 16px;
+}
+.davis span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.davis h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.davis h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.davis img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+.davis img:hover
+{
+    cursor: pointer;
+}
+.davis p
+{
+    position: relative;
+    bottom: 105px;
+    line-height: 20px;
+    opacity: .8;
+}
+.business
+{
+    width: 200px;
+    transform: scale(1, 1.8);  
+    position: relative;
+    bottom: 3960px;
+    left: 345px;
+}
+.business:hover
+{
+    cursor: pointer;
+}
+.business .readmore
+{
+    width: 70px;
+    color: #6a6a6a;
+    opacity: .8;
+    font-weight: bold;
+    font-size: 10px;
+    transform: scale(1, .8);
+    position: relative;
+    bottom: 33px;  
+    left: 238px;
+}
+.uae
+{
+    width: 280px;
+    position: relative;
+    bottom: 3970px;
+    left: 345px;
+}
+.uae span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.uae h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.uae h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.uae img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+.uae img:hover
+{
+    cursor: pointer;
+}
+.uae p
+{
+    position: relative;
+    bottom: 100px;
+    line-height: 20px;
+    opacity: .8;
+}
+.uae hr
+{
+    width: 295px;
+    border: 1px dotted black;
+    opacity: .2;
+    margin-top: -85px;
+}
+.petroleum
+{
+    width: 295px;
+    position: relative;
+    bottom: 3950px;
+    left: 345px;
+}
+.petroleum span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.petroleum h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.petroleum h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.petroleum img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+.petroleum img:hover
+{
+    cursor: pointer;
+}
+.petroleum p
+{
+    position: relative;
+    bottom: 105px;
+    line-height: 20px;
+    opacity: .8;
+}
+.petroleum hr
+{
+    width: 295px;
+    border: 1px dotted black;
+    opacity: .2;
+    margin-top: -95px;
+}
+.gold
+{
+    width: 300px;
+    position: relative;
+    bottom: 3940px;
+    left: 345px;
+}
+.gold span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.gold h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.gold h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.gold img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+.gold img:hover
+{
+    cursor: pointer;
+}
+.gold p
+{
+    position: relative;
+    bottom: 105px;
+    line-height: 20px;
+    opacity: .8;
+}
+.world-topics
+{
+    width: 50px;
+    transform: scale(1, 1.8);  
+    position: relative;
+    bottom: 4810px;
+    left: 680px;
+}
+.world-topics:hover
+{
+    cursor: pointer;
+}
+.world-topics .readmore
+{
+    width: 70px;
+    color: #6a6a6a;
+    opacity: .8;
+    font-weight: bold;
+    font-size: 10px;
+    transform: scale(1, .8);
+    position: relative;
+    bottom: 33px;  
+    left: 238px;
+}
+.maldives
+{
+    width: 270px;
+    position: relative;
+    bottom: 4810px;
+    left: 680px;
+}
+.maldives span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.maldives h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.maldives h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.maldives img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+.maldives img:hover
+{
+    cursor: pointer;
+}
+.maldives p
+{
+    position: relative;
+    bottom: 100px;
+    line-height: 20px;
+    opacity: .8;
+}
+.maldives hr
+{
+    width: 295px;
+    border: 1px dotted black;
+    opacity: .2;
+    margin-top: -85px;
+}
+.syria
+{
+    width: 295px;
+    position: relative;
+    bottom: 4810px;
+    left: 680px;
+}
+.syria span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.syria h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.syria h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.syria img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+.syria img:hover
+{
+    cursor: pointer;
+}
+.syria p
+{
+    position: relative;
+    bottom: 105px;
+    line-height: 20px;
+    opacity: .8;
+}
+.syria hr
+{
+    width: 295px;
+    border: 1px dotted black;
+    opacity: .2;
+    margin-top: -95px;
+}
+.canada
+{
+    width: 295px;
+    position: relative;
+    bottom: 4810px;
+    left: 680px;
+}
+.canada span
+{
+    transform: scale(1, 1.3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.canada h3
+{
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 3px;
+}
+.canada h3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.canada img
+{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+.canada img:hover
+{
+    cursor: pointer;
+}
+.canada p
+{
+    position: relative;
+    bottom: 105px;
+    line-height: 20px;
+    opacity: .8;
+}
+.canada hr
+{
+    width: 965px;
+    border: 1px solid black;
+    position: relative;
+    right: 665px;
+    margin-top: -13px;
+    opacity: .5;
+}
+.opinion
+{
+    width: 50px;
+    transform: scale(1, 1.8);  
+    position: relative;
+    bottom: 4800px;
+    left: 14px;
+}
+.opinion:hover
+{
+    cursor: pointer;
+}
+.opinion .readmore
+{
+    width: 70px;
+    color: #6a6a6a;
+    opacity: .8;
+    font-weight: bold;
+    font-size: 10px;
+    transform: scale(1, .8);
+    position: relative;
+    bottom: 33px;  
+    left: 410px;
+}
+.hepatitis
+{
+    width: 155px;
+    position: absolute;
+    top: 4305px;
+    left: 20px;
+    text-align: center;
+}
+.hepatitis img
+{
+    width: 150px;
+    height: 100px;
+}
+.hepatitis img:hover
+{
+    cursor: pointer;
+}
+.hepatitis h4
+{
+    margin-top: 5px;
+    word-spacing: 1px;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+.hepatitis h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.hepatitis p
+{
+    margin-top: -10px;
+    color: #6a6a6a;
+    opacity: .8;
+    transform: scale(1, 1.4);
+    font-weight: bold;
+    font-size: 10px;
+}
+.hepatitis p:hover
+{
+    cursor: pointer;
+}
+.crown
+{
+    width: 155px;
+    position: absolute;
+    top: 4305px;
+    left: 180px;
+    text-align: center;
+}
+.crown img
+{
+    width: 150px;
+    height: 100px;
+}
+.crown img:hover
+{
+    cursor: pointer;
+}
+.crown h4
+{
+    margin-top: 5px;
+    word-spacing: 1px;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+.crown h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.crown p
+{
+    margin-top: -10px;
+    color: #6a6a6a;
+    opacity: .8;
+    transform: scale(1, 1.4);
+    font-weight: bold;
+    font-size: 10px;
+}
+.crown p:hover
+{
+    cursor: pointer;
+}
+.solar
+{
+    width: 155px;
+    position: absolute;
+    top: 4305px;
+    left: 340px;
+    text-align: center;
+}
+.solar img
+{
+    width: 150px;
+    height: 100px;
+}
+.solar img:hover
+{
+    cursor: pointer;
+}
+.solar h4
+{
+    margin-top: 5px;
+    word-spacing: 1px;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+.solar h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.solar p
+{
+    margin-top: -10px;
+    color: #6a6a6a;
+    opacity: .8;
+    transform: scale(1, 1.4);
+    font-weight: bold;
+    font-size: 10px;
+}
+.solar p:hover
+{
+    cursor: pointer;
+}
+.technology
+{
+    width: 50px;
+    transform: scale(1, 1.8);  
+    position: relative;
+    bottom: 4870px;
+    left: 510px;
+}
+.technology:hover
+{
+    cursor: pointer;
+}
+.technology .readmore
+{
+    width: 70px;
+    color: #6a6a6a;
+    opacity: .8;
+    font-weight: bold;
+    font-size: 10px;
+    transform: scale(1, .8);
+    position: relative;
+    bottom: 33px;  
+    left: 410px;
+}
+.telescope
+{
+    width: 155px;
+    position: absolute;
+    top: 4305px;
+    left: 518px;
+    text-align: center;
+}
+.telescope img
+{
+    width: 150px;
+    height: 100px;
+}
+.telescope img:hover
+{
+    cursor: pointer;
+}
+.telescope h4
+{
+    margin-top: 5px;
+    word-spacing: 1px;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+.telescope h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.telescope p
+{
+    margin-top: -10px;
+    color: #6a6a6a;
+    opacity: .8;
+    transform: scale(1, 1.4);
+    font-weight: bold;
+    font-size: 10px;
+}
+.telescope p:hover
+{
+    cursor: pointer;
+}
+.grok
+{
+    width: 155px;
+    position: absolute;
+    top: 4305px;
+    left: 678px;
+    text-align: center;
+}
+.grok img
+{
+    width: 150px;
+    height: 100px;
+}
+.grok img:hover
+{
+    cursor: pointer;
+}
+.grok h4
+{
+    margin-top: 5px;
+    word-spacing: 1px;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+.grok h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.grok p
+{
+    margin-top: -10px;
+    color: #6a6a6a;
+    opacity: .8;
+    transform: scale(1, 1.4);
+    font-weight: bold;
+    font-size: 10px;
+}
+.grok p:hover
+{
+    cursor: pointer;
+}
+.nasa
+{
+    width: 155px;
+    position: absolute;
+    top: 4305px;
+    left: 836px;
+    text-align: center;
+}
+.nasa img
+{
+    width: 150px;
+    height: 100px;
+}
+.nasa img:hover
+{
+    cursor: pointer;
+}
+.nasa h4
+{
+    margin-top: 5px;
+    word-spacing: 1px;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+.nasa h4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #02b099;
+    cursor: pointer;
+}
+.nasa p
+{
+    margin-top: -10px;
+    color: #6a6a6a;
+    opacity: .8;
+    transform: scale(1, 1.4);
+    font-weight: bold;
+    font-size: 10px;
+}
+.nasa p:hover
+{
+    cursor: pointer;
+}
+footer
+{
+    height: 200px;
+}
+.footer-hr hr
+{
+    width: 99%;
+    border: 1px solid #808080;
+    position: absolute;
+    top: 4700px;
+}
+.footer-img img
+{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+.footer-navbar 
+{
+    width: 750px;
+}
+.footer-navbar li
+{
+    list-style: none;
+    font-size: 13px;
+    position: relative;
+    left: 170px;
+    bottom: 92px;
+}
+footer p
+{
+    width: 250px;
+    font-size: 12px;
+    color: #808080;
+    position: relative;
+    left: 50px;
+    bottom: 95px; 
+}
